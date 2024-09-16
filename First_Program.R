@@ -32,7 +32,11 @@ Average_Control <- rowMeans(Control)
 
 #preview using head(Average_Treatment) and head(Average_Control)
 
+Fold_change <- Average_Treatment - Average_Control
 
+#preview using head(Fold_change)
+
+#Fold change > 1.5 up-related; <-1.5 down-regulated
 
 
 
